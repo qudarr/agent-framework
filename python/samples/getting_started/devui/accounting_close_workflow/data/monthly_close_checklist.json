@@ -1,0 +1,66 @@
+{
+  "month": "March 2024",
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Review and validate AR invoices",
+      "owner": "Invoice Insights Agent",
+      "status": "pending",
+      "priority": "high",
+      "description": "Verify all AR invoices are recorded correctly, identify overdue invoices, and calculate revenue projections"
+    },
+    {
+      "id": 2,
+      "task": "Detect cashflow anomalies",
+      "owner": "Cashflow Anomaly Agent",
+      "status": "pending",
+      "priority": "high",
+      "description": "Analyze cashflow transactions for unusual patterns or significant deviations from normal operations"
+    },
+    {
+      "id": 3,
+      "task": "Reconcile bank statements",
+      "owner": "Finance Team",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Match bank transactions with ledger entries"
+    },
+    {
+      "id": 4,
+      "task": "Review expense accruals",
+      "owner": "Finance Team",
+      "status": "pending",
+      "priority": "medium",
+      "description": "Ensure all period expenses are properly accrued"
+    },
+    {
+      "id": 5,
+      "task": "Calculate depreciation",
+      "owner": "Finance Team",
+      "status": "pending",
+      "priority": "low",
+      "description": "Record monthly depreciation for fixed assets"
+    },
+    {
+      "id": 6,
+      "task": "Generate financial statements",
+      "owner": "Finance Team",
+      "status": "pending",
+      "priority": "high",
+      "description": "Prepare P&L, balance sheet, and cashflow statement"
+    },
+    {
+      "id": 7,
+      "task": "Review and approve close",
+      "owner": "Controller",
+      "status": "pending",
+      "priority": "critical",
+      "description": "Final review and approval of month-end close package"
+    }
+  ],
+  "notes": [
+    "Invoice Insights Agent should identify any collection issues early in the close process",
+    "Cashflow Anomaly Agent should flag unusual transactions for manual review",
+    "All anomalies and overdue invoices should be documented in the close package"
+  ]
+}

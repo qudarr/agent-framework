@@ -57,6 +57,8 @@ agent_name/
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [**weather_agent_azure/**](weather_agent_azure/) | Weather agent using Azure OpenAI with API key authentication                                      | Azure OpenAI integration, function calling, mock weather tools             | `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_CHAT_DEPLOYMENT_NAME`, `AZURE_OPENAI_ENDPOINT`              |
 | [**foundry_agent/**](foundry_agent/)             | Weather agent using Azure AI Agent (Foundry) with Azure CLI authentication (run `az login` first) | Azure AI Agent integration, Azure CLI authentication, mock weather tools   | `AZURE_AI_PROJECT_ENDPOINT`, `FOUNDRY_MODEL_DEPLOYMENT_NAME`                                       |
+| [**invoice_insights_agent/**](invoice_insights_agent/) | AR invoice analysis agent for accounting SaaS use cases | Azure AI Agent integration, invoice parsing tools, revenue projections, overdue detection | `AZURE_AI_PROJECT_ENDPOINT`, `AZURE_AI_MODEL_DEPLOYMENT_NAME` |
+| [**cashflow_anomaly_agent/**](cashflow_anomaly_agent/) | Cashflow anomaly detection agent for unusual pattern identification | Azure AI Agent integration, anomaly detection, category trend analysis, monthly summaries | `AZURE_AI_PROJECT_ENDPOINT`, `AZURE_AI_MODEL_DEPLOYMENT_NAME` |
 
 ### Workflows
 
@@ -65,6 +67,7 @@ agent_name/
 | [**workflow_agents/**](workflow_agents/)     | Content review workflow with agents as executors                  | Agents as workflow nodes, conditional routing based on structured outputs, quality-based paths (Writer → Reviewer → Editor/Publisher) | `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_CHAT_DEPLOYMENT_NAME`, `AZURE_OPENAI_ENDPOINT` |
 | [**spam_workflow/**](spam_workflow/)         | 5-step email spam detection workflow with branching logic         | Sequential execution, conditional branching (spam vs. legitimate), multiple executors, mock spam detection                  | None - uses mock data                                                                 |
 | [**fanout_workflow/**](fanout_workflow/)     | Advanced data processing workflow with parallel execution         | Fan-out/fan-in patterns, complex state management, multi-stage processing (validation → transformation → quality assurance) | None - uses mock data                                                                 |
+| [**accounting_close_workflow/**](accounting_close_workflow/) | Month-end accounting close orchestration workflow | Sequential agent coordination, multi-agent collaboration (Invoice Insights → Cashflow Anomaly → Close Summary), automated close reporting | `AZURE_AI_PROJECT_ENDPOINT`, `AZURE_AI_MODEL_DEPLOYMENT_NAME` |
 
 ### Standalone Examples
 
