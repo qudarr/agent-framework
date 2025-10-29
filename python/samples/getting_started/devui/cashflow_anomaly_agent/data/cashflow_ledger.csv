@@ -1,0 +1,31 @@
+date,category,amount,type,description,account
+2024-01-05,Operating Revenue,45000.00,income,Monthly subscription revenue,Revenue
+2024-01-08,Operating Expenses,-12500.00,expense,Office rent payment,Rent
+2024-01-10,Operating Revenue,38500.00,income,Professional services income,Revenue
+2024-01-12,Operating Expenses,-8900.00,expense,Salaries and wages,Payroll
+2024-01-15,Operating Expenses,-2300.00,expense,Utility bills,Utilities
+2024-01-18,Operating Revenue,52000.00,income,New client contracts,Revenue
+2024-01-20,Operating Expenses,-15000.00,expense,Software licenses,Technology
+2024-01-22,Operating Expenses,-4200.00,expense,Marketing and advertising,Marketing
+2024-01-25,Operating Revenue,41000.00,income,Consulting fees,Revenue
+2024-01-28,Operating Expenses,-3800.00,expense,Office supplies,Supplies
+2024-02-02,Operating Revenue,48000.00,income,Monthly subscription revenue,Revenue
+2024-02-05,Operating Expenses,-12500.00,expense,Office rent payment,Rent
+2024-02-08,Operating Revenue,39000.00,income,Professional services income,Revenue
+2024-02-10,Operating Expenses,-8900.00,expense,Salaries and wages,Payroll
+2024-02-12,Investing Activities,-25000.00,expense,Equipment purchase,CapEx
+2024-02-15,Operating Revenue,55000.00,income,Large contract payment,Revenue
+2024-02-18,Operating Expenses,-2100.00,expense,Utility bills,Utilities
+2024-02-20,Operating Expenses,-5500.00,expense,Marketing campaign,Marketing
+2024-02-22,Operating Revenue,42000.00,income,Consulting fees,Revenue
+2024-02-25,Operating Expenses,-1800.00,expense,Travel expenses,Travel
+2024-03-01,Operating Revenue,51000.00,income,Monthly subscription revenue,Revenue
+2024-03-03,Operating Expenses,-12500.00,expense,Office rent payment,Rent
+2024-03-05,Operating Revenue,44000.00,income,Professional services income,Revenue
+2024-03-08,Operating Expenses,-8900.00,expense,Salaries and wages,Payroll
+2024-03-10,Operating Expenses,-2400.00,expense,Utility bills,Utilities
+2024-03-12,Financing Activities,75000.00,income,Investment funding received,Financing
+2024-03-15,Operating Revenue,58000.00,income,Quarter-end bonuses,Revenue
+2024-03-18,Operating Expenses,-18500.00,expense,Unusual: Large emergency repair,Maintenance
+2024-03-20,Operating Expenses,-6200.00,expense,Marketing expenses,Marketing
+2024-03-22,Operating Revenue,39000.00,income,Consulting fees,Revenue
