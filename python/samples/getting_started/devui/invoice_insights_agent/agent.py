@@ -79,7 +79,7 @@ def get_overdue_invoices() -> str:
         result += f"- {inv['invoice_id']}: {inv['company_name']}\n"
         result += f"  Amount: ${inv['amount']:,.2f}\n"
         result += f"  Due Date: {inv['due_date']}\n"
-        items_desc = inv['items'][0]['description'] if inv.get('items') else "No items"
+        items_desc = inv['items'][0]['description'] if inv.get('items') and len(inv['items']) > 0 else "No items"
         result += f"  Items: {items_desc}\n\n"
     
     return result
@@ -117,7 +117,7 @@ def analyze_invoice_by_company(
         result += f"  Amount: ${inv['amount']:,.2f}\n"
         result += f"  Status: {inv['status']}\n"
         result += f"  Due Date: {inv['due_date']}\n"
-        items_desc = inv['items'][0]['description'] if inv.get('items') else "No items"
+        items_desc = inv['items'][0]['description'] if inv.get('items') and len(inv['items']) > 0 else "No items"
         result += f"  Items: {items_desc}\n\n"
     
     return result
